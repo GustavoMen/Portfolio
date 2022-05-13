@@ -5,9 +5,12 @@ import {
 } from "react-router-dom";
 
 
-// PAGES 
+// Components
 import { Navbar } from "./pages/layout/Navbar";
 import { Footer } from "./pages/layout/Footer";
+import Container from "./pages/layout/Container";
+
+// PAGES 
 import { Home } from "./pages/Home";
 
 
@@ -15,9 +18,11 @@ export function AppRoutes() {
     return (
     <Router>
       <Navbar />
-        <Routes>
-          <Route path="/" element={< Home/>} />
-        </Routes>
+        <Container>
+          <Routes>
+            <Route path="/" element={< Home/>} />
+          </Routes>
+        </Container>  
       <Footer />
     </Router>
     )

@@ -1,7 +1,12 @@
 import "./Container.css"
 
-function Container({ children }) {
-  return <main className="container">{children}</main>;
+interface ChildrenProp {
+  children: React.ReactNode;
+}
+
+
+function Container(props: ChildrenProp ): JSX.Element {
+  return <main className="container">{props.children}</main>;
 }
 
 export default Container;

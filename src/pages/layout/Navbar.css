@@ -6,6 +6,17 @@
     color: #E7DFDD;
 }
 
+.navbar_logo {
+    display: flex;
+    align-items: center;
+    background-color: #0E0B16;
+}
+
+.navbar_logo img {
+    width: 80px;
+    margin-right: 0.8em;
+}
+
 .navbar ul {
     display: flex;
     align-items: center;
@@ -24,7 +35,7 @@
 }
 
 .navbar li:hover {
-    background-color: #00FA9A;
+    background-color: #57bdd1;
     color: #0E0B16;
 }
 

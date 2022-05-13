@@ -1,6 +1,46 @@
+* {
+    color: #fff
+}
+
+.bold {
+    font-weight: bold;
+}
+
+h1 {font-size: 45px;}
+h2 {font-size: 36px;}
+h3 {font-size: 30px;}
+h4 {font-size: 24px;}
+h5 {font-size: 20px;}
+h6 {font-size: 16px;}
+
 .Home {
-    max-width: 40%;
+
     margin: 0em 7em
+}
+
+.Home section {
+    display: inline-block;
+    width: 49%;
+}
+
+.hometxt{
+    float:left
+}
+
+.homeImage {
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.homeImage img {
+    width: 450px;
+    float: right;
+}
+
+.BoldBlue {
+    color:#57bdd1;
+    text-align: center;
+    margin-left: 4em;
 }
 
 .Helloworld {
@@ -8,13 +48,12 @@
 }
 
 .Home h1 {
-    font-size: 4em;
     margin-top: 0.5em;
     margin-bottom: .5em;
 }
 
 .Home span p {
-    color: #00FA9A;
+    color: #57bdd1;
     font-size: 1.6em;
     font-weight: bold;
     margin-bottom: 1em;
@@ -23,7 +62,7 @@
 .Home button {
     margin-top: 2em;
     border-radius: 8px;
-    background-color: #00FA9A;
+    background-color: #57bdd1;
     color: #0E0B16;
     border: none;
     max-width: 200px;
@@ -36,9 +75,71 @@
 }
 
 .Home button:hover {
-    background-color: #556B2F;
+    background-color: #3b6bc1;
 }
 
 .bold {
     font-weight: bold;
+}
+
+
+/* ABOUT */
+
+.About {
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.About section {
+    display: inline-block;
+    width: 44%;
+}
+
+.AboutImage {
+    float: left;
+}
+
+.AboutImage img {
+    padding-right: 50%;
+    width: 800px;
+}
+
+.AboutMe {
+    float: right;
+}   
+
+.About h1 {
+    text-align: Center;
+    margin-top: 5em;
+    margin-right: 4em;
+    margin-bottom: 1.5em;
+}
+
+.About h2{
+    margin-bottom: 2em;
+}
+
+.About p {
+    font-size: 1.3em;
+    margin-bottom: 2.5em;
+}
+
+.About button {
+    margin-left: 2.5em;
+    margin-top: 4em;
+    border-radius: 8px;
+    background-color: #57bdd1;
+    color: #0E0B16;
+    border: none;
+    max-width: 200px;
+    min-height: 2.5rem;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.About button:hover {
+    background-color: #3b6bc1;
 }

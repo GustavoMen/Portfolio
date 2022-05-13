@@ -1,8 +1,13 @@
 import "./Navbar.css"
+import Logo from '../../Assets/Logo.png'
+import Logo2 from '../../Assets/Logo2.png'
 
 export function Navbar() {
     return(
     <nav className="navbar">
+      <div className="navbar_logo">
+        <img src={Logo2} alt="Logo"></img>
+      </div>
       <ul>
         <a href="#Home">
           <li>Home</li>
