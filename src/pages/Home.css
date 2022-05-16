@@ -20,7 +20,7 @@ h6 {font-size: 16px;}
 
 .Home section {
     display: inline-block;
-    width: 49%;
+    width: 46%;
 }
 
 .hometxt{
@@ -185,6 +185,14 @@ h6 {font-size: 16px;}
 }
 
 /* PROJECTS */
+
+.Projects {
+    position: relative;
+}
+
+.Tabs {
+    min-height: 60vh;
+}
 
 .Projects h1 {
     margin-top: 5em;

@@ -113,7 +113,9 @@ export function Home() {
 
   <div className="Projects">
     <h1>Projetos</h1>
+    <div className="Tabs">
       <Tabs></Tabs>
+    </div>
   </div>
 
 </div>   

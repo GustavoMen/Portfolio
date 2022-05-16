@@ -1,4 +1,5 @@
 import "./Tabs.css";
+import GetAPetImage from '../Assets/projects/GetAPet.gif';
 import { useState } from 'react'
 
 function Tabs() {
@@ -9,6 +10,13 @@ function Tabs() {
 
     const toggleTab = (index) => {
         setToggleState(index)
+    }
+
+    const [onContent, setOnContent] = useState(1);
+
+    const showContent = (index) => {
+        setOnContent(index)
+        return
     }
 
     return (
@@ -40,10 +48,26 @@ function Tabs() {
 
             <div
              className={toggleState === 1 ? "content active-content" : "content"}>
-                <section>
-                    <h2>IMG</h2>
-                    <p>Nome do projeto</p>
+                <section className="sectionProject">
+
+                    <div className="ImageProject">
+                        <img src={GetAPetImage}></img>
+                    </div>
+                    <h2>Logo</h2>
+                    <p>Um site que simula uma adoção completa de pet, contendo regras de negocios, alem de um sistema que checagem.</p>
+                    <h3>Technologies:</h3>
+                    <div className="technologies">
+                        <h4>Html</h4><h4>Css</h4><h4>Javascript</h4><h4>Nodejs</h4><h4>Reactjs</h4><h4>Sequelize</h4>
+                    </div>
+                    <div className="btnSection">
+                        <button>Visit Site</button>
+                        <button>See source code</button>
+                    </div>
                 </section> 
+
+                
+                
+              
             </div>
 
             <div
