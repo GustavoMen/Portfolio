@@ -1,8 +1,20 @@
 import "./Home.css";
-import homeImage from '../Assets/homeImage2.jpg';
-import aboutImage from '../Assets/aboutImage2.jpg';
+import homeImage from '../components/Assets/homeImage2.jpg';
+import aboutImage from '../components/Assets/aboutImage2.jpg';
+import htmlLogo from '../components/Assets/logos/htmlLogo.png';
+import cssLogo from '../components/Assets/logos/cssLogo.jpg';
+import JSLogo from '../components/Assets/logos/JSLogo.jpg';
+import TSLogo from '../components/Assets/logos/TSLogo.png';
+import ReactLogo from '../components/Assets/logos/ReactLogo.png';
+import MysqlLogo from '../components/Assets/logos/MySQLlogo.png';
+
+import { useState } from "react";
+import Tabs from "../components/Tabs/Tabs";
 
 export function Home() {
+
+
+
     return (
 <div className="Container">   
   <div className="Home">    
@@ -41,18 +53,68 @@ export function Home() {
       <a href="https://drive.google.com/file/d/11CeAvJ-gSQhXURApX-W-w8E7k5yjRbyW/view?usp=sharing" target="_blank">
         <button>Ver Curriculo Drive</button>
       </a>
-      <a href="#About">
+      <a href="">
         <button>Download Curriculo</button>
       </a>
     </section>
 
     <section className="Aboutme">
-      <h2>Gustavo Mendonça de Lacerda</h2>
-      <p>Desenvolvedor Web, Teve inicio na carreira em 2021, quando tomou a decisão de começar a estudar programação onde descobriu um vício: <span className="bold"> códigos.</span> Seu primeiro contato com a area foi devido a sua curiosidade de saber como sites funcionavam, <span className="bold">a partir daí começou com projetos pessoais das mais diversas formas, Websites, Sistemas, Adquirindo um vasto conhecimento nas diversas linguagens de programação utilizadas hoje no mercado.</span> </p>
+      <h2>Gustavo Mendonça</h2>
+      <p>Desenvolvedor Web, Teve inicio na carreira em 2021, quando tomou a decisão de começar a estudar programação onde descobriu um vício: <span className="bold"> códigos.</span> Seu primeiro contato com a area foi devido a sua curiosidade de saber como sites funcionavam, <span className="bold">a partir daí começou com projetos pessoais das mais diversas formas, contando com Websites e Sistemas, Adquirindo um vasto conhecimento nas diversas linguagens de programação utilizadas hoje no mercado.</span> </p>
 
       <p>Tendo conhecimento em:<span className="bold"> HTML, Css, Javascript, Typescript, Node.js, React, MySQL, Postgress, MongoDB, Mongoose, TypeORM,  Jest, Docker, Git, Github.</span></p>
     </section>
-  </div>    
+  </div>  
+
+  <div className="Skills">
+    <h1>Skills</h1>
+      <section>
+        <div>
+          <img src={htmlLogo}></img>
+        </div>
+        <h2>HTML</h2>
+      </section>
+
+      <section>
+        <div>
+          <img src={cssLogo}></img>
+        </div>
+        <h2>Css</h2>
+      </section>
+
+      <section>
+        <div className="JSLogo">
+          <img src={JSLogo}></img>
+        </div>
+        <h2>Javascript</h2>
+      </section>
+
+      <section>
+        <div className="tslogo">
+          <img src={TSLogo}></img>
+        </div>
+        <h2>Typescript</h2>
+      </section>
+
+      <section>
+        <div className="ReactLogo">
+          <img src={ReactLogo}></img>
+        </div>
+        <h2>React</h2>
+      </section>
+
+      <section>
+        <div className="MysqlLogo">
+          <img src={MysqlLogo}></img>
+        </div>
+        <h2>MySQL</h2>
+      </section>
+  </div>  
+
+  <div className="Projects">
+    <h1>Projetos</h1>
+      <Tabs></Tabs>
+  </div>
 
 </div>   
     )

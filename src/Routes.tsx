@@ -6,9 +6,9 @@ import {
 
 
 // Components
-import { Navbar } from "./pages/layout/Navbar";
-import { Footer } from "./pages/layout/Footer";
-import Container from "./pages/layout/Container";
+import { Navbar } from "./components/layout/Navbar";
+import { Footer } from "./components/layout/Footer";
+import Container from "./components/layout/Container";
 
 // PAGES 
 import { Home } from "./pages/Home";
