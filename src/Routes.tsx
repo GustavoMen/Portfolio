@@ -18,11 +18,11 @@ export function AppRoutes() {
     return (
     <Router>
       <Navbar />
-        <Container>
+
           <Routes>
             <Route path="/" element={< Home/>} />
           </Routes>
-        </Container>  
+
       <Footer />
     </Router>
     )
