@@ -69,42 +69,42 @@ export function Home() {
   <div className="Skills">
     <h1>Skills</h1>
       <section>
-        <div>
+        <div className="logoSkills">
           <img src={htmlLogo}></img>
         </div>
         <h2>HTML</h2>
       </section>
 
       <section>
-        <div>
+        <div className="logoSkills">
           <img src={cssLogo}></img>
         </div>
         <h2>Css</h2>
       </section>
 
       <section>
-        <div className="JSLogo">
+        <div className="logoSkills">
           <img src={JSLogo}></img>
         </div>
         <h2>Javascript</h2>
       </section>
 
       <section>
-        <div className="tslogo">
+        <div className="logoSkills">
           <img src={TSLogo}></img>
         </div>
         <h2>Typescript</h2>
       </section>
 
       <section>
-        <div className="ReactLogo">
+        <div className="logoSkills">
           <img src={ReactLogo}></img>
         </div>
         <h2>React</h2>
       </section>
 
       <section>
-        <div className="MysqlLogo">
+        <div className="logoSkills">
           <img src={MysqlLogo}></img>
         </div>
         <h2>MySQL</h2>

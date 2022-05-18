@@ -61,7 +61,7 @@ section {
     border-radius: 10px;
     position: relative;
     display: inline-block;
-    width: 43%;
+    width: 45%;
     height: 900px;
     margin: 2em;
     
@@ -149,6 +149,12 @@ section {
             width: 80%;
         }
     
+}
+
+@media (max-width:600px) {
+    .technologies h4 {
+        font-size: 1em;
+    }
 }
 
 

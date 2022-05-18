@@ -1,5 +1,3 @@
-
-
 * {
     color: #fff
 }
@@ -35,6 +33,7 @@ h6 {
 .Home {
     display: inline-block;
     width: 100%;
+    margin: 0;
 }
 
 .Home section {
@@ -42,23 +41,25 @@ h6 {
     height: auto;
 }
 
-.hometxt {
-    float: left
+.Hometxt {
+    float: left;
+    margin: 0;
+    padding: 0;
 }
 
 .homeImage {
     text-align: justify;
+    margin: 0;
+    float: right;
 }
 
 .homeImage img {
     margin-right: 20%;
     width: 80%;
-    float: right;
 }
 
 .BoldBlue {
     color: #57bdd1;
-    text-align: center;
 }
 
 .Helloworld {
@@ -106,6 +107,7 @@ h6 {
 /* ABOUT */
 
 .About {
+    margin-top: 3em;
     width: 100%;
 }
 
@@ -128,7 +130,6 @@ h6 {
 }
 
 .About h1 {
-    text-align: Center;
     margin-bottom: 1.5em;
 }
 
@@ -169,8 +170,8 @@ h6 {
 
 
 .Skills {
-    width: 100%;
     text-align: center;
+    width: 100%;
 }
 
 .Skills section {
@@ -178,7 +179,7 @@ h6 {
     background-color: #000000;
     display: inline-block;
     width: 22%;
-    height: 33%;
+    height: 200px;
     margin-top: 1.5em;
     margin-right: 2em;
     border-bottom: 2em solid #57bdd1;
@@ -191,7 +192,6 @@ h6 {
 }
 
 .Skills h1 {
-    text-align: center;
     margin-right: 4em;
     margin-bottom: 1.5em;
 }
@@ -200,6 +200,8 @@ h6 {
     margin-top: 0;
     padding-top: 1em;
     margin-bottom: 1.2em;
+    font-size: 1rem;
+
 }
 
 /* PROJECTS */
@@ -216,11 +218,45 @@ h6 {
 }
 
 @media (max-width:480px) {
+    .logoSkills {
+        margin-right: .5em;
+    }
 
+    .Skills img {
+        width: 100px;
+        padding: 1em;
+    }
 }
 
 @media (max-width:600px) {
-    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+    .About {
+        margin-top: 3em;
+        width: 100%;
+    }
+    
+    .About section {
+        display: inline;
+        width: 100%;
+        height: auto;
+    }
+    
+    .AboutImage {
+        float: left;
+        width: 100%;
+    }
+    
+    .AboutImage img {
+        width: 100%;
+    }
+
+    .AboutMe {
+        float: right;
+    }
+
+    .About button {
+        max-width: 200px;
+        margin-left: .5em;
+    }
 }
 
 @media (max-width:801px) {
@@ -228,7 +264,7 @@ h6 {
         width: 100%;
         height: auto;
     }
-    
+
     .homeImage h1 {
         display: none;
     }
@@ -254,6 +290,5 @@ h6 {
         margin-top: 6em;
     }
 
-    
-}
 
+}
