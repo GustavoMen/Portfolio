@@ -1,6 +1,4 @@
-.Container {
-    width: 100%;
-}
+
 
 * {
     color: #fff
@@ -10,12 +8,29 @@
     font-weight: bold;
 }
 
-h1 {font-size: 45px;}
-h2 {font-size: 36px;}
-h3 {font-size: 30px;}
-h4 {font-size: 24px;}
-h5 {font-size: 20px;}
-h6 {font-size: 16px;}
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 16px;
+}
 
 .Home {
     display: inline-block;
@@ -24,14 +39,14 @@ h6 {font-size: 16px;}
 
 .Home section {
     width: 40%;
+    height: auto;
 }
 
-.hometxt{
-    float:left
+.hometxt {
+    float: left
 }
 
 .homeImage {
-    box-sizing: border-box;
     text-align: justify;
 }
 
@@ -42,9 +57,8 @@ h6 {font-size: 16px;}
 }
 
 .BoldBlue {
-    color:#57bdd1;
+    color: #57bdd1;
     text-align: center;
-    margin-left: 4em;
 }
 
 .Helloworld {
@@ -93,12 +107,12 @@ h6 {font-size: 16px;}
 
 .About {
     width: 100%;
-    box-sizing: border-box;
 }
 
 .About section {
     display: inline-block;
     width: 44%;
+    height: auto;
 }
 
 .AboutImage {
@@ -111,15 +125,14 @@ h6 {font-size: 16px;}
 
 .AboutMe {
     float: right;
-}   
+}
 
 .About h1 {
     text-align: Center;
-    margin-right: 4em;
     margin-bottom: 1.5em;
 }
 
-.About h2{
+.About h2 {
     margin-bottom: 2em;
 }
 
@@ -145,7 +158,7 @@ h6 {font-size: 16px;}
 }
 
 .About button:hover {
-    color:#fff;
+    color: #fff;
     background-color: #0E0B16;
     border: 2px solid #57bdd1;
 }
@@ -179,7 +192,6 @@ h6 {font-size: 16px;}
 
 .Skills h1 {
     text-align: center;
-    margin-top: 4em;
     margin-right: 4em;
     margin-bottom: 1.5em;
 }
@@ -201,5 +213,47 @@ h6 {font-size: 16px;}
 .Projects h1 {
     margin-top: 5em;
     text-align: center;
+}
+
+@media (max-width:480px) {
+
+}
+
+@media (max-width:600px) {
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
+}
+
+@media (max-width:801px) {
+    .Home section {
+        width: 100%;
+        height: auto;
+    }
+    
+    .homeImage h1 {
+        display: none;
+    }
+
+    .homeImage img {
+        width: 40%;
+        float: inline-start;
+    }
+
+
+}
+
+@media (max-width:1025px) {
+    .About section {
+        width: 40%;
+    }
+
+    .AboutMe {
+        width: 100%;
+    }
+
+    .AboutImage {
+        margin-top: 6em;
+    }
+
+    
 }
 
