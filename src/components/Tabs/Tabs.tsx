@@ -16,17 +16,19 @@ import { useState } from 'react'
 
 function Tabs() {
 
-
+    interface Iindex {
+        index: number;
+    }
 
     const [toggleState, setToggleState] = useState(1);
 
-    const toggleTab = (index) => {
+    const toggleTab = (index : Iindex) => {
         setToggleState(index)
     }
 
     const [onContent, setOnContent] = useState(1);
 
-    const showContent = (index) => {
+    const showContent = (index : Iindex) => {
         setOnContent(index)
         return
     }
