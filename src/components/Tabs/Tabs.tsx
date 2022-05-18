@@ -6,7 +6,7 @@ import ApiVendasImg from '../Assets/projects/API-VENDASimage.jpg';
 import JogodaMemoriaGif from '../Assets/projects/JogodaMemoria.gif';
 
 
-import GaPLogo from '../Assets/logos/GetaPetProjectLogo.png';
+import GaPLogo from '../Assets/projects/GetaPetProjectLogo.png';
 import ToughtsLogo from '../Assets/projects/toughts_logo.png';
 import CapturePageLogo from '../Assets/projects/CapturePageLogo.png';
 import ApiVendasLogo from '../Assets/projects/ApiVendasLogo.png';
