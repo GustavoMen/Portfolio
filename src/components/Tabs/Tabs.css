@@ -168,7 +168,7 @@ section {
     }
 }
 
-@media (max-width:420) {
+@media (max-width:450px) {
 
     .btnSection {
         text-align: center;

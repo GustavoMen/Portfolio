@@ -219,6 +219,7 @@ h6 {
 
 @media (max-width:350px) {
 
+
     .AboutMe h2 {
         margin-bottom: 2em;
         margin-top: 2em;
@@ -258,6 +259,10 @@ h6 {
     .About h2 {
         font-size: 3em;
         display: none;
+    }
+
+    .Skills div {
+        text-align: center;
     }
     
     .Skills section {
