@@ -168,6 +168,34 @@ section {
     }
 }
 
+@media (max-width:420) {
+
+    .btnSection {
+        text-align: center;
+        justify-content: space-between;
+        margin-bottom: 2em;
+    }
+
+    .btnSection button {
+        margin-right: 1.5em;
+        margin-top: 1em;
+        width: 60%;
+        height: 50px;
+        border-radius: 20px;
+        background-color: #57bdd1;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        font-size: 1.1em;
+        font-weight: bold;
+        transition: .5s;
+    }
+
+    section {
+        width: 90%;
+    }
+}
+
 @media (max-width:800px) {
     
     section {
