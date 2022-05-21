@@ -97,7 +97,7 @@ export function Home() {
       </section>
 
       <section>
-        <div className="logoSkills">
+        <div className="logoSkills react">
           <img src={ReactLogo}></img>
         </div>
         <h2>React</h2>

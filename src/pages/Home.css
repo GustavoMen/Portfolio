@@ -171,6 +171,7 @@ h6 {
 
 .Skills {
     text-align: center;
+    justify-content: space-between;
     width: 100%;
 }
 
@@ -178,23 +179,28 @@ h6 {
     box-sizing: border-box;
     background-color: #000000;
     display: inline-block;
-    width: 23%;
-    height: 200px;
-    margin-top: 1.5em;
+    width: 27%;
+    max-height: 200px;
+    margin-top: 1.2em;
     margin-right: 2em;
     border-bottom: 2em solid #57bdd1;
     border-radius: 10px;
 }
 
 .Skills img {
-    width: 120px;
-    padding: 1em;
+    margin-top: 1em;
+    width: 27%;
+}
+
+.react img{
+    padding-top: 1em;
 }
 
 .Skills h1 {
     margin-right: 4em;
     margin-bottom: 1.5em;
 }
+
 
 .Skills h2 {
     margin-top: 0;
