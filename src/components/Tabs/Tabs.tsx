@@ -78,7 +78,7 @@ function Tabs() {
                             <button>See Backend code</button>
                         </a>
                         <a target='_blank' href='https://github.com/GustavoMen/Get-a-pet-FRONTEND-'>
-                            <button>See Backend code</button>
+                            <button>See Frontend code</button>
                         </a>
                     </div>
                 </section>
@@ -214,7 +214,7 @@ function Tabs() {
                             <button>See Backend code</button>
                         </a>
                         <a target='_blank' href='https://github.com/GustavoMen/Get-a-pet-FRONTEND-'>
-                            <button>See Backend code</button>
+                            <button>See Frontend code</button>
                         </a>
                     </div>
                 </section>  
@@ -281,7 +281,7 @@ function Tabs() {
                             <button>See Backend code</button>
                         </a>
                         <a target='_blank' href='https://github.com/GustavoMen/Get-a-pet-FRONTEND-'>
-                            <button>See Backend code</button>
+                            <button>See Frontend code</button>
                         </a>
                     </div>
                 </section>  
