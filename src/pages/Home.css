@@ -112,7 +112,7 @@ h6 {
 }
 
 .About section {
-    display: inline-block;
+    display: inline;
     width: 44%;
     height: auto;
 }
@@ -421,3 +421,4 @@ h6 {
 
 
 }
+
