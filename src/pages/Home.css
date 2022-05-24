@@ -223,6 +223,8 @@ h6 {
     text-align: center;
 }
 
+
+
 @media (max-width:350px) {
 
 
@@ -267,26 +269,30 @@ h6 {
         display: none;
     }
 
-    .Skills div {
-        text-align: center;
-    }
+        .logoSkills {
+            margin-right: .5em;
+        }
     
-    .Skills section {
-        box-sizing: border-box;
-        background-color: #000000;
-        display: inline-block;
-        width: 250px;
-        height: 200px;
-        margin-top: 1.5em;
-        margin-right: 2em;
-        border-bottom: 2em solid #57bdd1;
-        border-radius: 10px;
-    }
+        .Skills section {
+            box-sizing: border-box;
+            background-color: #000000;
+            display: inline-block;
+            width: 30%;
+            height: 200px;
+            margin-top: 1.5em;
+            margin-right: 2em;
+            border-bottom: 2em solid #57bdd1;
+            border-radius: 10px;
+        }
     
-    .Skills img {
-        width: 80px;
-        padding: 1em;
-    }
+        .Skills img {
+            width: 100px;
+            padding: 1em;
+        }
+    
+        .About h2 {
+            font-size: 1.5em;
+        }
 }
 
 @media (max-width:400px) {
@@ -318,21 +324,16 @@ h6 {
         margin-right: .5em;
     }
 
-    .Skills section {
+        .Skills section {
         box-sizing: border-box;
         background-color: #000000;
         display: inline-block;
         width: 30%;
-        height: 200px;
+        height: 150px;
         margin-top: 1.5em;
         margin-right: 2em;
         border-bottom: 2em solid #57bdd1;
         border-radius: 10px;
-    }
-
-    .Skills img {
-        width: 100px;
-        padding: 1em;
     }
 
     .About h2 {

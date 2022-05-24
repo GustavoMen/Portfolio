@@ -74,8 +74,12 @@ function Tabs() {
                         <h4>Html</h4><h4>Css</h4><h4>Javascript</h4><h4>Nodejs</h4><h4>Reactjs</h4><h4>Sequelize</h4>
                     </div>
                     <div className="btnSection">
-                        <button>Visit Site</button>
-                        <button>See source code</button>
+                        <a target='_blank' href='https://github.com/GustavoMen/Get-a-pet-BACKEND-'>
+                            <button>See Backend code</button>
+                        </a>
+                        <a target='_blank' href='https://github.com/GustavoMen/Get-a-pet-FRONTEND-'>
+                            <button>See Backend code</button>
+                        </a>
                     </div>
                 </section>
 
@@ -93,8 +97,12 @@ function Tabs() {
                         <h4>Html</h4><h4>Css</h4><h4>Javascript</h4>
                     </div>
                     <div className="btnSection">
-                        <button>Visit Site</button>
-                        <button>See source code</button>
+                        <a target="_blank" href="https://projetode-captura.vercel.app">
+                            <button>Visit Site</button>
+                        </a>
+                        <a target='_blank' href='https://github.com/GustavoMen/ProjetodeCaptura'>
+                            <button>See source code</button>
+                        </a>
                     </div>
                 </section>   
 
@@ -112,8 +120,9 @@ function Tabs() {
                         <h4>Html</h4><h4>Css</h4><h4>Javascript</h4><h4>Nodejs</h4><h4>MVC Architecture</h4><h4>MySQL</h4>
                     </div>
                     <div className="btnSection">
-                        <button>Visit Site</button>
-                        <button>See source code</button>
+                        <a target='_blank' href='https://github.com/GustavoMen/Toughts'>
+                            <button>See source code</button>
+                        </a>
                     </div>
                 </section> 
 
@@ -131,7 +140,9 @@ function Tabs() {
                         <h4>Html</h4><h4>Css</h4><h4>Javascript</h4><h4>Nodejs</h4><h4>MVC Architecture</h4><h4>MySQL</h4>
                     </div>
                     <div className="btnSection">
-                        <button>See source code</button>
+                        <a target='_blank' href='https://github.com/GustavoMen/API-VENDAS'>
+                            <button>See source code</button>
+                        </a>
                     </div>
                 </section> 
 
@@ -149,8 +160,12 @@ function Tabs() {
                         <h4>Html</h4><h4>Css</h4><h4>Javascript</h4><h4>Nodejs</h4><h4>MVC Architecture</h4><h4>MySQL</h4>
                     </div>
                     <div className="btnSection">
-                        <button>Visit Site</button>
-                        <button>See source code</button>
+                        <a target='_blank' href='https://gustavomen.github.io/Jogo-da-Memoria/'>
+                            <button>Play</button>
+                        </a>
+                        <a target='_blank' href='https://github.com/GustavoMen/Jogo-da-Memoria'>
+                            <button>See source code</button>
+                        </a>
                     </div>
                 </section> 
             </div>
@@ -172,8 +187,12 @@ function Tabs() {
                         <h4>Html</h4><h4>Css</h4><br></br><h4>Javascript</h4>
                     </div>
                     <div className="btnSection">
-                        <button>Visit Site</button>
-                        <button>See source code</button>
+                        <a target="_blank" href="https://projetode-captura.vercel.app">
+                            <button>Visit Site</button>
+                        </a>
+                        <a target='_blank' href='https://github.com/GustavoMen/ProjetodeCaptura'>
+                            <button>See source code</button>
+                        </a>
                     </div>
                 </section>
 
@@ -191,8 +210,12 @@ function Tabs() {
                         <h4>Html</h4><h4>Css</h4><h4>Javascript</h4><h4>Nodejs</h4><h4>Reactjs</h4><h4>Sequelize</h4>
                     </div>
                     <div className="btnSection">
-                        <button>Visit Site</button>
-                        <button>See source code</button>
+                        <a target='_blank' href='https://github.com/GustavoMen/Get-a-pet-BACKEND-'>
+                            <button>See Backend code</button>
+                        </a>
+                        <a target='_blank' href='https://github.com/GustavoMen/Get-a-pet-FRONTEND-'>
+                            <button>See Backend code</button>
+                        </a>
                     </div>
                 </section>  
 
@@ -210,8 +233,9 @@ function Tabs() {
                         <h4>Html</h4><h4>Css</h4><h4>Javascript</h4><h4>Nodejs</h4><h4>MVC Architecture</h4><h4>MySQL</h4>
                     </div>
                     <div className="btnSection">
-                        <button>Visit Site</button>
-                        <button>See source code</button>
+                        <a target='_blank' href='https://github.com/GustavoMen/Toughts'>
+                            <button>See source code</button>
+                        </a>
                     </div>
                 </section> 
             </div>
@@ -233,7 +257,9 @@ function Tabs() {
                         <h4>Html</h4><h4>Css</h4><h4>Javascript</h4><h4>Nodejs</h4><h4>MVC Architecture</h4><h4>MySQL</h4>
                     </div>
                     <div className="btnSection">
-                        <button>See source code</button>
+                        <a target='_blank' href='https://github.com/GustavoMen/API-VENDAS'>
+                            <button>See source code</button>
+                        </a>
                     </div>
                 </section> 
 
@@ -251,7 +277,12 @@ function Tabs() {
                         <h4>Html</h4><h4>Css</h4><h4>Javascript</h4><h4>Nodejs</h4><h4>Reactjs</h4><h4>Sequelize</h4>
                     </div>
                     <div className="btnSection">
-                        <button>See source code</button>
+                        <a target='_blank' href='https://github.com/GustavoMen/Get-a-pet-BACKEND-'>
+                            <button>See Backend code</button>
+                        </a>
+                        <a target='_blank' href='https://github.com/GustavoMen/Get-a-pet-FRONTEND-'>
+                            <button>See Backend code</button>
+                        </a>
                     </div>
                 </section>  
 
@@ -291,8 +322,12 @@ function Tabs() {
                         <h4>Html</h4><h4>Css</h4><h4>Javascript</h4><h4>Nodejs</h4><h4>MVC Architecture</h4><h4>MySQL</h4>
                     </div>
                     <div className="btnSection">
-                        <button>Play</button>
-                        <button>See source code</button>
+                        <a target='_blank' href='https://gustavomen.github.io/Jogo-da-Memoria/'>
+                            <button>Play</button>
+                        </a>
+                        <a target='_blank' href='https://github.com/GustavoMen/Jogo-da-Memoria'>
+                            <button>See source code</button>
+                        </a>
                     </div>
                 </section> 
             </div>
