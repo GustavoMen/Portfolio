@@ -123,7 +123,7 @@ export function Home() {
 
   <div className="ContactMe">
     <h1>Contact me</h1>
-    <h3>Estou interessado em projetos freelancers e vagas de emprego. Apesar disso, se você tiver outros pedidos, não vergonha por entrar em contato.</h3>
+    <h3>Estou interessado em projetos freelancers e vagas de emprego. Apesar disso, se você tiver outros pedidos, não tenha vergonha por entrar em contato.</h3>
     <a target='_blank' href='mailto:contato.gustavomendonca@gmail.com'>
         <button>Entre em contato.</button>
     </a>
