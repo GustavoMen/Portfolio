@@ -7,6 +7,9 @@ import JSLogo from '../components/Assets/logos/JSLogo.jpg';
 import TSLogo from '../components/Assets/logos/TSLogo.png';
 import ReactLogo from '../components/Assets/logos/ReactLogo.png';
 import MysqlLogo from '../components/Assets/logos/MySQLlogo.png';
+import linkedinLogo from '../components/Assets/ContactLogos/linkedinLogo.png'
+import gmailLogo from '../components/Assets/ContactLogos/gmailLogo.png'
+import githubLogo from '../components/Assets/ContactLogos/githubLogo.jpg'
 
 import { useState } from "react";
 import Tabs from "../components/Tabs/Tabs";
@@ -19,7 +22,7 @@ export function Home() {
 <div className="Container">   
   <div className="Home">    
     <section className="Hometxt">
-      <p className="Helloworld">Olá mundo, Meu nome é Gustavo</p>
+      <p className="Helloworld">Olá mundo, Meu nome é</p>
       <h1>Gustavo Mendonça</h1>
       <span>
         <p>FULLSTACK DEVELOPER</p>
@@ -50,7 +53,7 @@ export function Home() {
       <div>
         <img src={aboutImage}></img>
       </div>
-      <a href="https://drive.google.com/file/d/11CeAvJ-gSQhXURApX-W-w8E7k5yjRbyW/view?usp=sharing" target="_blank">
+      <a target="_blank" href="https://drive.google.com/file/d/11CeAvJ-gSQhXURApX-W-w8E7k5yjRbyW/view?usp=sharing" >
         <button>Ver Curriculo Drive</button>
       </a>
       <a href="">
@@ -116,6 +119,21 @@ export function Home() {
     <div className="Tabs">
       <Tabs></Tabs>
     </div>
+  </div>
+
+  <div className="ContactMe">
+    <h1>Contact me</h1>
+    <h3>Estou interessado em projetos freelancers e vagas de emprego. Apesar disso, se você tiver outros pedidos, não vergonha por entrar em contato.</h3>
+    <a target='_blank' href='mailto:contato.gustavomendonca@gmail.com'>
+        <button>Entre em contato.</button>
+    </a>
+    <a target='_blank' href="https://github.com/GustavoMen">
+        <button>Github</button>
+    </a>
+    <a target='_blank' href="https://www.linkedin.com/in/gustavomen/">
+        <button>Linkedin</button>
+    </a>
+    
   </div>
 
 </div>   

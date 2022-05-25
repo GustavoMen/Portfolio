@@ -150,17 +150,19 @@ section {
         margin-bottom: 2em;
     }
 
+
+
     .btnSection button {
         margin-right: 1.5em;
         margin-top: 1em;
-        width: 60%;
+        width: 90%;
         height: 50px;
         border-radius: 20px;
         background-color: #57bdd1;
         color: #fff;
         border: none;
         cursor: pointer;
-        font-size: 1.1em;
+        font-size: 0.6em;
         font-weight: bold;
         transition: .5s;
     }
@@ -170,6 +172,13 @@ section {
 }
 
 @media (max-width:450px) {
+
+    .technologies h4 {
+            font-size: 0.7em;
+            display: inline-block;
+            margin: .5em;
+            color: #57bdd1;
+        }
 
     .btnSection {
         text-align: center;

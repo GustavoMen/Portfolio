@@ -75,10 +75,10 @@ function Tabs() {
                     </div>
                     <div className="btnSection">
                         <a target='_blank' href='https://github.com/GustavoMen/Get-a-pet-BACKEND-'>
-                            <button>See Backend code</button>
+                            <button>Backend code</button>
                         </a>
                         <a target='_blank' href='https://github.com/GustavoMen/Get-a-pet-FRONTEND-'>
-                            <button>See Frontend code</button>
+                            <button>Frontend code</button>
                         </a>
                     </div>
                 </section>
@@ -211,10 +211,10 @@ function Tabs() {
                     </div>
                     <div className="btnSection">
                         <a target='_blank' href='https://github.com/GustavoMen/Get-a-pet-BACKEND-'>
-                            <button>See Backend code</button>
+                            <button>Backend code</button>
                         </a>
                         <a target='_blank' href='https://github.com/GustavoMen/Get-a-pet-FRONTEND-'>
-                            <button>See Frontend code</button>
+                            <button>Frontend code</button>
                         </a>
                     </div>
                 </section>  
@@ -278,10 +278,10 @@ function Tabs() {
                     </div>
                     <div className="btnSection">
                         <a target='_blank' href='https://github.com/GustavoMen/Get-a-pet-BACKEND-'>
-                            <button>See Backend code</button>
+                            <button>Backend code</button>
                         </a>
                         <a target='_blank' href='https://github.com/GustavoMen/Get-a-pet-FRONTEND-'>
-                            <button>See Frontend code</button>
+                            <button>Frontend code</button>
                         </a>
                     </div>
                 </section>  
